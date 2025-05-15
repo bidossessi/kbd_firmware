@@ -34,7 +34,9 @@ kb=crkbd kr=rev4_1/standard km=vial make vial-qmk-compile
 A built data will be stored on `keyboards/crkbd/vial-kb/vial-qmk/.build`\
 Please change `kb`, `kr` and `km` when build other.
 
-### All cleaning and building
-```sh
-make update-all
+
+## 4. Flashing
+
+```
+kb=crkbd kr=rev4_1/standard km=vial make vial-qmk-flash
 ```
